@@ -1,0 +1,36 @@
+{
+  "name": "prettier-plugin-shell",
+  "version": "1.0.0",
+  "description": "prettier解析shell",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjwgank/prettier-plugin-shell.git"
+  },
+  "keywords": [
+    "prettier-plugin"
+  ],
+  "author": "zjwgank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zjwgank/prettier-plugin-shell/issues"
+  },
+  "homepage": "https://github.com/zjwgank/prettier-plugin-shell#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^8.1.0",
+    "@commitlint/lint": "^8.1.0",
+    "eslint": "^6.1.0",
+    "husky": "^3.0.1",
+    "lint-staged": "^9.2.1"
+  },
+  "dependencies": {}
+}
