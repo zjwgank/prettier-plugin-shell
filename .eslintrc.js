@@ -7,5 +7,9 @@ module.exports = {
     extends:["eslint:recommended"],
     rules:{
         "semi":[2,"never"]
+    },
+    parserOptions:{
+        ecmaVersion:7,
+        sourceType:"module"
     }
 }
