@@ -1,6 +1,6 @@
 {
   "name": "prettier-plugin-shell",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "prettier解析shell",
   "main": "src/index.js",
   "scripts": {
