@@ -1,12 +1,11 @@
-import languages from './languages'
-import parsers from './parsers'
-import printers from './printers'
-import options from './options'
-import defaultOptions from './defaultOptions'
+const languages = require('./languages')
+const parsers = require('./parsers')
+const printers =  require('./printers')
+const options = require('./options')
+const defaultOptions = require('./defaultOptions')
 
-console.log('test------shell')
 
-export default {
+module.exports = {
     languages,
     parsers,
     printers,

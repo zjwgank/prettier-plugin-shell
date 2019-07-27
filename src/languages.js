@@ -1,5 +1,6 @@
-export default [{
-    extensions:[".sh"],
-    name:'Shell',
-    parsers:["shell"]
-}]
+module.exports = [
+    {
+        name:'Shell',
+        parsers:["shell"]
+    }
+]
